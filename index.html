@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Paula Bejarano, Félix Gerardo Díaz, Martin D'Orta, Dalma Fernandez"
+    />
+    <meta name="description" content="Blog Fitness de entrenamiento, nutricion y vida sana" />
+    <meta
+      name="keywords"
+      content="fitness, salud, entrenamiento, nutricion"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/10942c11e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/NavFooterLogin.css" />
+    <title>RollingFitness</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-dark fixed-top navbar-dark d-flex justify-content-center"
+      >
+        <div class="container-fluid">
+          <!--icono-->
+          <a class="navbar-brand" href="index.html">
+            <img
+              width="225"
+              src="../assets/NavFootterLogin/LogoHorizontal.png"
+              alt="Logo Rolling Fitness"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 px-lg-2 px-md-1 d-flex align-items-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-warning ml-lg-5"
+                  aria-current="page"
+                  href="index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/entrenamientos.html"
+                  >ENTRENAMIENTO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/alimentacion.html"
+                  >NUTRICION+DIETA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/acercade.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/login.html">
+                  <i class="fa-solid fa-user icono_navbar"></i>
+                </a>
+              </li>
+            </ul>
+
+            <form class="d-flex align-items-center" role="search">
+              <input
+                class="form-control rounded-pill me-2"
+                type="search"
+                placeholder="Búsqueda"
+                aria-label="Búsqueda"
+              />
+
+              <a
+                class="text-secondary me-3"
+                type="submit"
+                href="views/error404.html"
+                ><i class="fa-solid fa-magnifying-glass icono_navbar"></i
+              ></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div id="carouselCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/carouselimgs/carousel1.jpg"
+                class="d-block w-100 img_carousel"
+                alt="Imagen de una mujer fitness"
+              />
+              <div class="carousel-caption d-md-block">
+                <h2>Motivación</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/carouselimgs/carousel2.jpg"
+                class="d-block w-100 img_carousel"
+                alt="Imagen de un hombre entrenando"
+              />
+              <div class="carousel-caption d-md-block">
+                <h2>Fuerza</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/carouselimgs/carousel20.jpg"
+                class="d-block w-100 img_carousel"
+                alt="Imagen de comida saludable"
+              />
+              <div class="carousel-caption d-md-block">
+                <h2>Disciplina</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/carouselimgs/portada-hombre.jpg"
+                class="d-block w-100 img_carousel"
+                alt="Imagen de un hombre entrenando"
+              />
+              <div class="carousel-caption d-md-block">
+                <h2>Constancia</h2>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <article class="my-2">
+          <div class="d-flex justify-content-evenly flex-wrap">
+            <div>
+              <a class="nav-link" href="/views/entrenamientos.html">
+                <img
+                  src="assets/icons/logomancuerna.png"
+                  alt="Logo mancuerna"
+                  class="col-lg-2 col-md-4 col-sm-6 my-3 mx-5 main__section_articlelogos"
+                />
+                <h4 class="text-center">Entrenamiento</h4>
+              </a>
+            </div>
+            <div>
+              <a class="nav-link" href="/views/alimentacion.html">
+                <img
+                  src="assets/icons/logonutricion.png"
+                  alt="Logo nutricion"
+                  class="col-lg-2 col-md-4 col-sm-6 my-3 mx-5 main__section_articlelogos"
+                />
+                <h4 class="text-center">Nutrición+Dieta</h4>
+              </a>
+            </div>
+
+            <div>
+              <a class="nav-link" href="/views/contacto.html">
+                <img
+                  src="assets/icons/lifestyle.png"
+                  alt="Logo de persona"
+                  class="col-lg-2 col-md-4 col-sm-6 my-3 mx-5 main__section_articlelogos"
+                />
+                <h4 class="text-center">Contacto</h4>
+              </a>
+            </div>
+            <div>
+              <a class="nav-link" href="/views/acercade.html">
+                <img
+                  src="assets/icons/logoestrella.png"
+                  alt="Logo acerca de nosotros"
+                  class="col-lg-2 col-md-4 col-sm-6 my-3 mx-5 main__section_articlelogos"
+                />
+                <h4 class="text-center">Nosotros</h4>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <div class="d-flex justify-content-center my-5 mx-3">
+          <form action="" class="search-bar shadow-lg" id="formprincipal">
+            <input class="w-75" type="text" placeholder="Búsqueda" />
+            <a href="views/error404.html">
+              <img
+                id="lupa_busqueda"
+                src="assets/icons/searchicon.png"
+                alt="Icono de búsqueda"
+              />
+            </a>
+          </form>
+        </div>
+      </section>
+      <section class="container">
+        <article class="row">
+          <div class="col-lg-4 col-md-6 p-2 d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="assets/Blog/alimentacion1.webp"
+                class="card-img-top"
+                alt="Imagen de alimentos saludables"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Alimentación saludable</h5>
+                <p class="card-text">
+                  La importancia de la alimentación es algo que se ha inculcado
+                  a toda persona que se dedica al mundo del deporte o
+                  desarrolla...
+                </p>
+                <a href="/views/entrada1.html" class="main__sectionCardsLinks"
+                  >VER MÁS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2 d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="assets/Blog/ejercicio1.jpg"
+                class="card-img-top"
+                alt="Imagen de mujer haciendo ejercicio"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Rutina para principiantes: entrenamiento en casa
+                </h5>
+                <p class="card-text">
+                  Realizar una rutina de entrenamiento en casa es la mejor forma
+                  de comenzar a hacer ejercicio físico. Si has llevado una vida
+                  sedentaria una rutina full body suave...
+                </p>
+                <a href="/views/entrada2.html" class="main__sectionCardsLinks"
+                  >VER MÁS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 p-2 d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="assets/cardsimgs/proteinfood.jpg"
+                class="card-img-top"
+                alt="Imagen de comida proteica"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Alimentos escenciales para ganar masa muscular
+                </h5>
+                <p class="card-text">
+                  La verdadera clave para ganar músculo se encuentra en tus
+                  comidas del día a día. Algunas de estas...
+                </p>
+                <a href="/views/error404.html" class="main__sectionCardsLinks"
+                  >VER MÁS</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-2 d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="assets/cardsimgs/couple-jogging-running-outdoors-park-near-water-young-bearded-man-woman-exercising-together-morning_146671-14879.jpg"
+                class="card-img-top"
+                alt="Imagen de una pareja con audifonos entrenando en el parque"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Playlists que te ayudaran durante tus entrenamientos
+                </h5>
+                <p class="card-text">
+                  En Spotify son muy inteligentes y ayudaron a los deportistas a
+                  buscar canciones que según los BPM...
+                </p>
+                <a href="/views/error404.html" class="main__sectionCardsLinks"
+                  >VER MÁS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2 d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="assets/cardsimgs/colorfulldumbells.jpg"
+                class="card-img-top"
+                alt="Imagen de pesas coloridas en el suelo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crea tu propio gimnasio casero</h5>
+                <p class="card-text">
+                  Mucha gente no hace ejercicio por la pereza de tener que ir al
+                  gimnasio y se excusan en que si tuvieran un gimnasio...
+                </p>
+                <a href="/views/error404.html" class="main__sectionCardsLinks"
+                  >VER MÁS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 p-2 d-flex justify-content-center">
+            <div class="card">
+              <img
+                src="assets/cardsimgs/entrenamientohiit.jpg"
+                class="card-img-top"
+                alt="Imagen de personas entrenando"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Entrenamiento HIIT para principiantes
+                </h5>
+                <p class="card-text">
+                  Es probable que hayas escuchado hablar de el entrenamiento
+                  HIIT relacionado con el fitness, pero debes saber que...
+                </p>
+                <a href="/views/error404.html" class="main__sectionCardsLinks"
+                  >VER MÁS</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="py-4">
+        <nav aria-label="Navegacion de la pagina">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a
+                class="page-link text-light paginacionPrincipal"
+                href="/views/error404.html"
+                aria-label="Anterior"
+              >
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Anterior</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link text-light paginacionPrincipal"
+                href="index.html"
+                >1</a
+              >
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link text-light paginacionPrincipal"
+                href="/views/error404.html"
+                >2</a
+              >
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link text-light paginacionPrincipal"
+                href="/views/error404.html"
+                >3</a
+              >
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link text-light paginacionPrincipal"
+                href="/views/error404.html"
+                aria-label="Siguiente"
+              >
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="anuncio_index" class="container mb-5">
+        <div class="row d-flex justify-content-center">
+          <img
+            class="col-lg-9 col-md-11"
+            src="assets/nike/anuncio1.gif"
+            alt="Anuncio de zapatillas Nike"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="pt-2 pb-1 bg-dark text-secondary">
+      <section class="container-fluid">
+        <div class="row">
+          <article class="col-sm-11 col-md-5 text-center">
+            <img
+              src="/assets/NavFootterLogin/ROLLING FITNESS PNG FONDO BLANCO.png"
+              alt="Logo Rolling Fitness footer"
+              class="w-50"
+            />
+            <div class="RedesFooter mt-1">
+              <a class="text-secondary" href="https://www.facebook.com"
+                ><i class="fa-brands fa-square-facebook icons"></i
+              ></a>
+              <a class="text-secondary" href="https://www.twitter.com"
+                ><i class="fa-brands fa-square-twitter icons"></i
+              ></a>
+              <a class="text-secondary" href="https://www.instagram.com"
+                ><i class="fa-brands fa-square-instagram icons"></i
+              ></a>
+              <a class="text-secondary" href="https://www.youtubetube.com"
+                ><i class="fa-brands fa-youtube icons"></i
+              ></a>
+              <a class="text-secondary" href="https://www.linkedin.com"
+                ><i class="fa-brands fa-linkedin icons"></i
+              ></a>
+            </div>
+          </article>
+          <article class="col-sm-12 col-md-4 mt-2">
+            <h6 class=" ">CONTACTO</h6>
+            <hr />
+            <div class="d-flex align-items-start">
+              <div>
+                <i
+                  class="fa-solid fa-location-dot fa-1x text-secondary mb-1"
+                ></i>
+              </div>
+              <div class="mx-2">
+                <p class="mb-1">General Paz, 574</p>
+                <p class="mb-3">San Miguel de Tucumán</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex align-items-start">
+              <div>
+                <i class="fa-solid fa-phone fa-1x text-secondary mb-1"></i>
+              </div>
+              <div class="mx-2">
+                <p class="text-secondary">(+54) 381 987 6543</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex align-items-start">
+              <div>
+                <i class="fa-solid fa-envelope fa-1x text-secondary mb-1"></i>
+              </div>
+              <div class="mx-2">
+                <a href="views/error404.html" class="nav-link mb-1"
+                  >contacto@rollingfitness.com</a
+                >
+              </div>
+            </div>
+            <hr />
+          </article>
+          <article class="col-sm-12 col-md-3 mt-2">
+            <h6 class="">SECCIONES</h6>
+            <hr />
+            <a href="views/entrenamientos.html" class="nav-link"
+              >Entrenamiento</a
+            >
+            <hr />
+            <a href="views/alimentacion.html" class="nav-link"
+              >Nutrición+Dieta</a
+            >
+            <hr />
+            <a href="views/contacto.html" class="nav-link">Contacto</a>
+            <hr />
+            <a href="views/acercade.html" class="nav-link">Nosotros</a>
+            <hr />
+          </article>
+        </div>
+        <div class="text-center mt-3">
+          <p>&copy; Todos los derechos reservados - Rolling Code School 2022</p>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

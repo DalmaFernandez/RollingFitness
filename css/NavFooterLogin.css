@@ -1,0 +1,101 @@
+.icono_navbar {
+  font-size: 22px;
+}
+.icons {
+  font-size: 30px;
+}
+
+.form-control:focus {
+  border-color: rgb(242, 138, 27);
+  box-shadow: 0 0 0 0.2rem rgba(242, 138, 27, 0.25);
+}
+
+.RedesFooter {
+  font-size: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.bodyLogin {
+  background-image: url(/assets/NavFootterLogin/FondoMain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.formulario {
+  background: rgba(15, 15, 15, 0.473);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(175, 175, 175);
+}
+.logo_login {
+  width: 30px;
+}
+
+#main_login {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  height: 75vh;
+}
+
+/*CSS ENTRENAMIENTO-ALIMENTACION-ERROR404*/
+#portada {
+  height: 63vh;
+  object-fit: cover;
+}
+.titulo__portada__entrenamiento {
+  top: 2rem;
+  left: 4rem;
+}
+.titulo__portada__alimentacion {
+  top: 10rem;
+  left: 5rem;
+}
+.titulo__portada__error {
+  top: 23rem;
+  left: 1rem;
+}
+
+.portada-error {
+  height: 95vh;
+  object-fit: cover;
+}
+
+.RedesFooter {
+  font-size: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 768px) {
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  .card-title {
+    height: 100px;
+  }
+  #error404_sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #portada {
+    height: 300px;
+    object-fit: cover;
+  }
+  #error404_lg {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  #portada {
+    height: 200px;
+    width: 100vw;
+    /* object-fit: cover; */
+  }
+}
+main {
+  padding-top: 40px;
+}

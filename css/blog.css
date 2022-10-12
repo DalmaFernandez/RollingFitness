@@ -1,0 +1,126 @@
+.img_usuarios {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.icono_circulo {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.main__section_articlelogos:hover {
+  filter: brightness(1%);
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.instagram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.img_editores {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 60px;
+  text-align: center;
+}
+
+iframe {
+  height: 50vh;
+}
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+.img_anuncios {
+  height: 300px;
+  object-fit: cover;
+}
+.img_acercade{
+  height: 65vh;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .main_articleAnuncios {
+    display: none;
+  }
+  .card-text-sm {
+    display: none;
+  }
+  .card-sm {
+    width: 90%;
+  }
+  .main_sectionTitulo_sm {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  #main_ContactoImg-sm {
+    display: none;
+  }
+  #main_contactoForm-sm {
+    height: 61vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main_articleAcercaReverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card-text-sm {
+    display: none;
+  }
+}
+.main_sectionDark {
+  height: 20vh;
+}
+
+#contacto_img {
+  height: 61vh;
+  object-fit: cover;
+}
+
